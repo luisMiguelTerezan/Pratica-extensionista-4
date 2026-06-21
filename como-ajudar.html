@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Como Ajudar - Grupo Ação Solidária RP</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="imagem/logo.jpeg" alt="Logo">
+          <span>Grupo Ação Solidária RP</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="/">Início</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/projetos.html">Projetos</a></li>
+          <li><a href="/como-ajudar.html" class="active">Como Ajudar</a></li>
+          <li><a href="/parceiros.html">Parceiros</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="/voluntario.html" class="btn-voluntario">
+            <span class="material-symbols-outlined" style="font-size: 20px">group</span>
+            <span>Seja Voluntário</span>
+          </a>
+          <button class="nav-toggle">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header style="padding: 100px 0 40px; background: var(--surface)">
+        <div class="container">
+          <div class="section-title" style="margin-bottom: 30px">
+            <h2>Sua Ajuda é Fundamental</h2>
+            <p>Existem muitas formas de apoiar o GASRP. Conheça as opções abaixo.</p>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <div class="grid-cards" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px">
+            <!-- Doação via PIX -->
+            <div class="card" style="border-top: 5px solid var(--secondary-container)">
+              <div class="card-icon"><span class="material-symbols-outlined">payments</span></div>
+              <h3>Doação Financeira</h3>
+              <p style="margin-bottom: 20px">Contribua com qualquer valor para a manutenção de nossos projetos semanais e mensais.</p>
+              <div style="background: var(--surface-container); padding: 20px; border-radius: 12px; text-align: center">
+                <p style="font-size: 12px; opacity: 0.7; margin-bottom: 5px">CHAVE PIX (CNPJ)</p>
+                <p style="font-family: monospace; font-size: 18px; font-weight: 700; color: var(--primary)">40.654.255/0001-92</p>
+                <button class="btn-copy-pix btn-primary" style="margin-top: 15px; width: 100%; border:none; cursor:pointer">
+                    <span class="material-symbols-outlined" style="font-size: 18px; vertical-align: middle">content_copy</span>
+                    Copiar Chave
+                </button>
+              </div>
+              <p style="font-size: 12px; text-align: center; margin-top: 10px; opacity: 0.6">Banco Itaú - Grupo Ação Solidária RP</p>
+            </div>
+
+            <!-- Doação de Itens -->
+            <div class="card" style="border-top: 5px solid var(--primary)">
+              <div class="card-icon"><span class="material-symbols-outlined">inventory_2</span></div>
+              <h3>Pontos de Arrecadação</h3>
+              <p style="margin-bottom: 20px">Recebemos alimentos não perecíveis, roupas e itens de higiene.</p>
+              
+              <div style="margin-bottom: 20px">
+                <h4 style="font-size: 14px; text-transform: uppercase; color: var(--primary); margin-bottom: 10px">Sede Principal</h4>
+                <p style="font-size: 14px">Rua Goiás, 768 - Campos Elíseos</p>
+                <p style="font-size: 14px; opacity: 0.8">Quintas-feiras, das 19:00 às 21:30</p>
+              </div>
+
+              <div>
+                <h4 style="font-size: 14px; text-transform: uppercase; color: var(--primary); margin-bottom: 10px">Ponto Ribeirânia</h4>
+                <p style="font-size: 14px">Av. Costábile Romano, 2765</p>
+                <p style="font-size: 14px; opacity: 0.8">Horário Comercial (HR Coml.)</p>
+              </div>
+            </div>
+
+            <!-- Voluntariado -->
+            <div class="card" style="border-top: 5px solid var(--secondary)">
+              <div class="card-icon"><span class="material-symbols-outlined">volunteer_activism</span></div>
+              <h3>Trabalho Voluntário</h3>
+              <p style="margin-bottom: 25px">Doe seu tempo e suas habilidades. Precisamos de mãos para cozinhar, organizar e distribuir esperança.</p>
+              <a href="/voluntario.html" class="btn-primary" style="display: block; text-align: center; text-decoration: none">Quero ser Voluntário</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <div class="container footer-content">
+        <img src="imagem/logo.jpeg" alt="Logo" height="60" style="background:white; padding:5px; border-radius:5px">
+        <h3>Grupo Ação Solidária RP</h3>
+        <p>Email: grupoacaosolidariarp@yahoo.com.br</p>
+        <p>© 2026 - Ribeirão Preto, SP</p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

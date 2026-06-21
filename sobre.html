@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nós - Grupo Ação Solidária RP</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="imagem/logo.jpeg" alt="Logo">
+          <span>Grupo Ação Solidária RP</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="/">Início</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/projetos.html">Projetos</a></li>
+          <li><a href="/como-ajudar.html">Como Ajudar</a></li>
+          <li><a href="/parceiros.html">Parceiros</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="/voluntario.html" class="btn-voluntario">
+            <span class="material-symbols-outlined" style="font-size: 20px">group</span>
+            <span>Seja Voluntário</span>
+          </a>
+          <button class="nav-toggle">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header style="padding: 100px 0 40px; background: var(--surface)">
+        <div class="container">
+          <div class="section-title" style="margin-bottom: 30px">
+            <h2>Nossa História</h2>
+            <p>Conheça mais sobre quem somos e o que nos move todos os dias.</p>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; margin-bottom: 80px">
+            <div>
+              <h3 style="font-family: var(--font-display); font-size: 28px; color: var(--primary); margin-bottom: 20px">Apenas Pessoas Unidas pelo Bem</h3>
+              <p style="margin-bottom: 20px">O Grupo Ação Solidária RP é uma associação sem fins lucrativos, sem vínculos políticos ou religiosos. Somos apenas pessoas unidas pelo ideal de fazer o bem e transformar a realidade de quem mais precisa em Ribeirão Preto.</p>
+              <p>Toda a nossa equipe é formada por voluntários apaixonados. Os recursos para nossas ações vêm de doações da comunidade, patrocínio de empresas solidárias, campanhas de arrecadação em supermercados, eventos da cidade e voluntários associados. </p>
+            </div>
+            <div style="position: relative">
+              <img src="imagem/cestas basicas.jpeg" alt="Voluntários" style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1)">
+            </div>
+          </div>
+
+          <div class="grid-cards">
+            <div class="card">
+              <h3>Missão</h3>
+              <p>Ser a ponte entre quem quer ajudar e quem precisa, levando não apenas suprimentos, mas dignidade e esperança.</p>
+            </div>
+            <div class="card">
+              <h3>Visão</h3>
+              <p>Tornar-se referência em ação comunitária independente, inspirando mais pessoas a se engajarem na causa social.</p>
+            </div>
+            <div class="card">
+              <h3>Valores</h3>
+              <p>Solidariedade, transparência, apartidarismo, laicismo e respeito profundo à vida humana.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <div class="container footer-content">
+        <img src="imagem/logo.jpeg" alt="Logo" height="60" style="background:white; padding:5px; border-radius:5px">
+        <h3>Grupo Ação Solidária RP</h3>
+        <p>Email: grupoacaosolidariarp@yahoo.com.br</p>
+        <p>© 2026 - Ribeirão Preto, SP</p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <style>
+      @media (max-width: 768px) {
+        main div[style*="grid-template-columns: 1fr 1fr"] {
+          grid-template-columns: 1fr !important;
+        }
+      }
+    </style>
+  </body>
+</html>

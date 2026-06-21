@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parceiros Solidários - Grupo Ação Solidária RP</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="imagem/logo.jpeg" alt="Logo">
+          <span>Grupo Ação Solidária RP</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="/">Início</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/projetos.html">Projetos</a></li>
+          <li><a href="/como-ajudar.html">Como Ajudar</a></li>
+          <li><a href="/parceiros.html" class="active">Parceiros</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="/voluntario.html" class="btn-voluntario">
+            <span class="material-symbols-outlined" style="font-size: 20px">group</span>
+            <span>Seja Voluntário</span>
+          </a>
+          <button class="nav-toggle">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header style="padding: 100px 0 40px; background: var(--surface)">
+        <div class="container">
+          <div class="section-title" style="margin-bottom: 30px">
+            <h2 style="font-size: 28px; text-transform: uppercase;">Empresas que já estão transformando vidas</h2>
+            <div style="width: 50px; height: 3px; background: var(--primary); margin: 20px auto;"></div>
+            <p style="max-width: 800px; margin: 0 auto; color: var(--on-surface-variant); line-height: 1.6">Empresas tornam-se agentes transformadores ao assumirem um compromisso com a Responsabilidade Social, desenvolvendo um papel participativo para a mudança da sociedade. Pesquisas comprovam que empresas engajadas em causas sociais são também impactadas positivamente pelas suas iniciativas solidárias.</p>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <style>
+            .partner-grid {
+              display: grid;
+              grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+              gap: 20px;
+              margin-bottom: 60px;
+            }
+            @media (min-width: 900px) {
+              .partner-grid { grid-template-columns: repeat(4, 1fr); }
+            }
+            .partner-logo-card {
+              background: white;
+              border-radius: 12px;
+              box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 160px;
+              padding: 30px;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .partner-logo-card:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+            }
+            .partner-logo-card img {
+              max-width: 100%;
+              max-height: 100%;
+              object-fit: contain;
+            }
+          </style>
+          
+          <div class="partner-grid">
+            <div class="partner-logo-card">
+              <img src="imagem/itucua.png" alt="Volkswagen Itacuã" onerror="this.onerror=null; this.src='https://placehold.co/200x80/ffffff/555555?text=Itacuã+VW';">
+            </div>
+            <div class="partner-logo-card">
+              <img src="imagem/logocostec.jpeg" alt="COSTEC Ferramentas" onerror="this.onerror=null; this.src='https://placehold.co/200x80/ffffff/555555?text=COSTEC';">
+            </div>
+            <div class="partner-logo-card">
+              <img src="imagem/logoartchik.png" alt="art chik Rótulos" onerror="this.onerror=null; this.src='https://placehold.co/200x80/ffffff/555555?text=art+chik';">
+            </div>
+            <div class="partner-logo-card">
+              <img src="imagem/logoDalmo.png" alt="Dalmo Corretora de Seguros" onerror="this.onerror=null; this.src='https://placehold.co/200x80/ffffff/555555?text=Dalmo+Seguros';">
+            </div>
+            <div class="partner-logo-card">
+              <img src="imagem/Logo FRF - Docs Word.jpg.jpeg" alt="FRF Gestão Industrial" onerror="this.onerror=null; this.src='https://placehold.co/200x80/ffffff/555555?text=FRF+Gestão';">
+            </div>
+          </div>
+
+          <!-- Call to Action para novas empresas -->
+          <div class="card" style="background: var(--surface-container); border: 2px solid var(--primary); text-align: center; padding: 50px 30px; border-radius: 16px;">
+            <div class="card-icon" style="font-size: 60px; color: var(--primary); margin-bottom: 15px;">
+              <span class="material-symbols-outlined" style="font-size: inherit">handshake</span>
+            </div>
+            <h3 style="font-family: var(--font-display); font-size: 28px; color: var(--primary); margin-bottom: 15px;">Seja uma Empresa Parceira</h3>
+            <p style="font-size: 16px; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; color: var(--on-surface-variant)">
+              Unir forças é a melhor maneira de multiplicar os resultados. Ao se tornar um parceiro do Grupo Ação Solidária RP, sua empresa reforça seu compromisso com a responsabilidade social corporativa e ajuda a levar alimento, dignidade e esperança para centenas de famílias de Ribeirão Preto.
+            </p>
+            <a href="https://wa.me/5516991564826?text=Olá!%20Represento%20uma%20empresa%20e%20gostaria%20de%20saber%20como%20nos%20tornar%20parceiros%20do%20Grupo%20Ação%20Solidária%20RP." 
+               target="_blank" 
+               class="btn-primary" 
+               style="display: inline-flex; align-items: center; gap: 10px; font-size: 16px; padding: 15px 30px; text-decoration: none;">
+              <span class="material-symbols-outlined">forum</span>
+              Conversar sobre Parcerias
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato">
+      <div class="container footer-content">
+        <p>© 2026 Grupo Ação Solidária RP - Ribeirão Preto, SP</p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
